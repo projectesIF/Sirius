@@ -1,0 +1,10 @@
+/* This is the main CSS that includes other CSS files. */
+@import url(http://www.xtec.cat/xtec_theme/css/base.css);
+@import url(http://www.xtec.cat/xtec_theme/css/application.css);
+@import url(http://www.xtec.cat/xtec_theme/css/layout.css);
+@import url(http://www.xtec.cat/xtec_theme/css/navigation.css);
+@import url(http://www.xtec.cat/xtec_theme/css/portlet.css);
+@import url(http://www.xtec.cat/xtec_theme/css/forms.css);
+@import url(http://www.xtec.cat/xtec_theme/css/custom.css);
+@import url(http://www.xtec.cat/xtec_theme/css/custom_ieci.css);
+@import url(http://www.xtec.cat/tac_css/tac.css);

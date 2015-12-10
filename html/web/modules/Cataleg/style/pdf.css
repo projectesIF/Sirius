@@ -1,0 +1,47 @@
+/* 
+    Document   : pdf
+    Created on : 04/04/2013, 10:20:50
+    Author     : super
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body { font-family: Verdana, sans-serif; font-size: 10pt;  }
+p { 	text-align: justify; margin-bottom: 4pt;  margin-top:0pt; }
+
+hr {	width: 70%; height: 1px; 
+        text-align: center; color: #999999; 
+        margin-top: 8pt; margin-bottom: 8pt; }
+
+a {	color: #000066; font-style: normal; text-decoration: underline; 
+        font-weight: normal; }
+
+ul {	text-indent: 5mm; margin-bottom: 9pt; }
+ol {	text-indent: 5mm; margin-bottom: 9pt; }
+
+pre { font-family: Verdana, monospaced; font-size: 9pt; margin-top: 5pt; margin-bottom: 5pt; }
+
+h1 {	font-weight: normal; font-size: 26pt; color: #000066; 
+        font-family: Verdana, sans-serif; margin-top: 18pt; margin-bottom: 6pt; 
+        border-top: 0.075cm solid #000000; border-bottom: 0.075cm solid #000000; 
+        page-break-after:avoid; }
+h2 {	font-weight: bold; font-size: 16pt; color: #000066; 
+        font-family: Verdana, sans-serif; margin-top: 6pt; margin-bottom: 6pt; 
+        border-top: 0.07cm solid #000000; border-bottom: 0.07cm solid #000000; 
+        page-break-after:avoid; }
+h3 {	font-weight: normal; font-size: 14pt; color: #000000; 
+        font-family: Verdana, sans-serif; margin-top: 0pt; margin-bottom: 6pt; 
+        border-top: 0; border-bottom: 0; page-break-after:avoid; }
+h4 {	font-size: 13pt; color: #000000;
+        font-family: Verdana, sans-serif; margin-top: 10pt; margin-bottom: 7pt; 
+        page-break-after:avoid; }
+h5 {	font-weight: bold; font-style:italic; ; font-size: 11pt; color: #000044; 
+        font-family: Verdana, sans-serif; margin-top: 8pt; margin-bottom: 4pt; 
+        page-break-after:avoid; }
+h6 {	font-weight: bold; font-size: 9.5pt; color: #333333; 
+        font-family: Verdana, sans-serif; margin-top: 6pt; 
+        page-break-after:avoid; }

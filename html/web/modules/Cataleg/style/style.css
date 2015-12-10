@@ -1,0 +1,316 @@
+/* style.css */
+.formOptions {
+    text-align: center;
+}
+.formField{
+    background: #eeeeee;
+    padding: 10px;
+}
+.formTitle{
+    float: left;
+    padding: 10px 20px 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formAdd{
+    float: left;
+}
+
+.formContent{
+    clear: both;
+}
+
+.active{
+    color: green;
+}
+
+.inactive{
+    color: red;
+}
+.formRowDefinitionDBField{
+
+}
+
+/*User form definition*/
+.fieldContent{
+    margin: 10px;
+    clear: both;
+    padding: 10px;
+}
+
+.fieldTitle{
+    float: left;
+    width: 200px;
+    padding-right: 10px;
+    font-weight:bold;
+}
+
+.fieldTitleInnactive{
+    color: #999999;
+    float: left;
+    width: 200px;
+    padding-right: 10px;
+    font-weight:bold;
+}
+
+.field{
+    float: left;
+}
+
+.fieldInnactive{
+    float: left;
+    font-style: italic;
+    background-color: #EEEEEE;
+}
+
+span.required{
+    color: red;
+}
+
+.z-noteinfo {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+div.helpBox{
+    background:url(../../IWmain/images/postitleft.png) repeat-y;
+    padding-left:5px;
+    position:absolute;
+    width: 300px;
+    display:none;
+    margin:20px 0px 0px -200px;
+}
+
+div.helpHeader{
+    background:url(../../IWmain/images/postittop.png) no-repeat;
+    height:32px;
+}
+
+div.helpContent{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color:#FFFDC8;
+    padding:10px 10px 0px 20px;
+}
+
+div.helpBoxClose{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    text-align:right;
+    font-weight:bold;
+    padding:10px 5px 10px 0px;
+}
+
+div.helpBoxClose a{
+    color:#929292;
+    text-decoration:none;
+}
+
+div.helpTitle{
+    padding: 12px 0px 0px 40px;
+    color: red;
+}
+
+/* style for main user tables */
+table.usertable {
+    width: 100%;
+    color: inherit;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    padding: 5px; /* top, right, bottom, left */
+}
+
+table.usertable td  {
+    padding: 5px; /* top, right, bottom, left */
+}
+
+table.usertable th  {
+    background-color: #CFCFCF;
+    padding: 5px 5px 10px 5px; /* top, right, bottom, left */
+}
+
+div.usercontainer h2 {
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 0px;
+}
+
+/* styling for a page icon */
+div.userpageicon {
+    padding: 0px 0px 10px 5px; /* top, right, bottom, left */
+}
+
+div.userpageicon img{
+    float: right;
+    padding-top: 5px;
+}
+
+/* Notes style */
+table.noteContent {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.noteContent td  {
+    border: 1px solid #AAAAAA;
+    padding-left: 5px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.button {
+    border: solid 1px #000;
+    padding: 2px 5px 2px 5px;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+.messageBody p>br {
+    display: none;
+}
+
+div.formSkin{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.orderButton {
+    display: inline;
+    cursor: pointer;
+}
+
+.sendedLink {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.z-buttons .z-bt-modify
+{
+    padding: 5px 7px 5px 32px !important;
+}
+
+.z-buttons .z-bt-modify.z-bt-small {
+    margin: 0 1px 0 0;
+    padding: 3px 8px 4px 27px !important;
+}
+
+.z-buttons .z-bt-modify {
+    background: url("../../../images/icons/extrasmall/mail_forward.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .z-bt-modify:hover,
+.z-buttons .z-bt-modify.hover {
+    background: url("../../../images/icons/extrasmall/mail_forward.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+
+.z-buttons .z-bt-modify:active,
+.z-buttons .z-bt-modify.active {
+    background: url("../../../images/icons/extrasmall/mail_forward.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/mail_forward.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+.z-buttons .z-bt-import
+{
+    padding: 5px 7px 5px 32px !important;
+}
+
+.z-buttons .z-bt-import.z-bt-small {
+    margin: 0 1px 0 0;
+    padding: 3px 8px 4px 27px !important;
+}
+
+.z-buttons .z-bt-import {
+    background: url("../../../images/icons/extrasmall/fileimport.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .z-bt-import:hover,
+.z-buttons .z-bt-import.hover {
+    background: url("../../../images/icons/extrasmall/fileimport.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+
+.z-buttons .z-bt-import:active,
+.z-buttons .z-bt-import.active {
+    background: url("../../../images/icons/extrasmall/fileimport.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../images/icons/extrasmall/fileimport.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+.z-buttons .z-bt-pdf
+{
+    padding: 5px 7px 5px 32px !important;
+}
+
+.z-buttons .z-bt-pdf.z-bt-small {
+    margin: 0 1px 0 0;
+    padding: 3px 8px 4px 27px !important;
+}
+
+.z-buttons .z-bt-pdf {
+    background: url("../images/filepdf.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .z-bt-pdf:hover,
+.z-buttons .z-bt-pdf.hover {
+    background: url("../images/filepdf.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+
+.z-buttons .z-bt-pdf:active,
+.z-buttons .z-bt-pdf.active {
+    background: url("../images/filepdf.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../images/filepdf.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+
+.flotant
+    {   
+        display:none;
+        position: absolute;
+        font-family:verdana !important;
+        font-size:1.1em !important;
+        width:50%;
+
+
+
+    }
+    
+.z-pointericon {
+    background: url("../../../images/global/arrow_down_grey.png") no-repeat scroll 50% 50% transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 1em;
+    margin-left: 0;
+    padding: 0 5px;
+    width: 1em;
+}
+
+.z-pointericon:hover {
+    background: url("../../../images/global/arrow_down_black.png") no-repeat scroll 50% 50% transparent;
+    border: 1px solid #999;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
