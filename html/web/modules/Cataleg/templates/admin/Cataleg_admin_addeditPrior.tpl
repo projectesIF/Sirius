@@ -18,7 +18,7 @@
            
            <div class="z-formrow">
                <label for="nomCurt">{gt text="Nom (curt)"}</label>
-               <textarea id="nomCurt" class="noeditor name="nomCurt" rows="3" cols="90" maxlength="200">{if $edit}{$prior.nomCurt}{/if}</textarea>
+               <textarea id="nomCurt" class="noeditor" name="nomCurt" rows="3" cols="90" maxlength="200">{if $edit}{$prior.nomCurt}{/if}</textarea>
            </div>
            <div class="z-formrow">
                <label for="nom">{gt text="Nom"}</label>
