@@ -1,4 +1,4 @@
-Sirius 1.1.4
+Sirius 2.0.2
 ==============================
 
  - **Zikula 1.3.9** core (with catalan locale)
@@ -22,7 +22,7 @@ Changelog
 Master branch
 -------------
 
-Sirius 1.1.5 (2017/02/28)
+Sirius 2.0.2 (2017/02/28)
 -------------------------
   - Fix error in Cataleg_admin_addeditPrior.tpl (quotes forgotten that makes it unusable form) -> Cataleg 1.1.3.1
   - Update project docs and extra-html folders (only to document them)
