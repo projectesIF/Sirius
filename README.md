@@ -27,6 +27,13 @@ Sirius 2.0.2 (2017/02/28)
   - Fix error in Cataleg_admin_addeditPrior.tpl (quotes forgotten that makes it unusable form) -> Cataleg 1.1.3.1
   - Update project docs and extra-html folders (only to document them)
 
+Sirius 2.0.1 (2015/10/26)
+-------------------------
+  - Delete SiriusXtecMailer_OLD 
+  - Delete SiriusXtecAuth_OLD
+  - Upgrade SiriusXtecMailer new bus (upgrading to 2.0.0)
+  - Files for convert db from myisam to innodb  
+
 Sirius 1.1.4 (2015/04/15)
 -------------------------
   - Some fixes in Cataleg module (tag 1.1.3 from repo)
